@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header h1{
+  background: #000;
+  color: #FFF;
+  margin: 0;
+  padding: 30px;
+}
+
+.footer{
+  background: #000;
+  color: #FFF;
+  margin: 0;
+  padding: 30px;
+}
+
+.search-bar{
+  margin: 15px;
+}
+
+.input-search{
+  width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+}
+
+.button-search{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  background: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.video-item{
+  display: flex;
+  margin: 25px;
+  margin-left: 100px;
+}
+
+.item{
+  display: block;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.pagination{
+  margin: 25px;
+}
+
+.pagination .active{
+  margin: 0 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  color: #000;
+  background: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pagination .non-active{
+  margin: 0 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  background: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
